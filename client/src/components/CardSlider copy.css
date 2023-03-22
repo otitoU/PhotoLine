@@ -1,0 +1,15 @@
+.card_slider {
+  background-color: rgb(211, 211, 211);
+  display: flex;
+  flex-direction: row;
+  height: auro;
+  width: 100%;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow: hidden;
+  overflow-x: scroll;
+  /* overflow-x: hidden; */
+}
+.card_slider::-webkit-scrollbar {
+  display: none;
+}

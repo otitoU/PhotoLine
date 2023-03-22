@@ -1,0 +1,27 @@
+.social_link__btn {
+  display: flex;
+  flex-direction: row;
+  padding: 0.9rem 2.2rem;
+  background-color: #e6e8ec;
+  border-radius: 8px;
+  transition: all 0.3s;
+
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+  &:hover {
+    background-color: #3f3f3f6e;
+  }
+
+  .social_link__btn--img {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+}
+.blue {
+  background-color: #4776d0;
+
+  &:hover {
+    background-color: #30508a;
+  }
+}

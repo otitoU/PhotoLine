@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+
+.player_card:not(:last-child) {
+  margin-right: 2rem;
+}
+.player_card {
+  background-color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+  border-radius: 10px;
+  color: black;
+  font-size: 13px;
+  font-weight: 600;
+  height: fit-content;
+}
+.player_img {
+  width: 100%;
+  margin-left: 1px;
+}
+.player_info {
+  padding: 6px 1.5rem;
+}
+.player_name {
+  font-size: 13px;
+  font-weight: 600;
+}
+.bottom_card {
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom_card span {
+  margin-right: 1rem;
+  color: #ff154d;
+}
+.bottom_card {
+  padding: 4px;
+  color: #88889d;
+}
+li {
+  list-style-type: disc;
+  /* display: inline-block; */
+}

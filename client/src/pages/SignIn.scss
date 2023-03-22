@@ -1,0 +1,36 @@
+.signin_page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 2px solid red;
+  padding: 2rem;
+
+  /* align-items: center; */
+  p {
+    margin-top: 1.6rem;
+  }
+  .or {
+    margin-top: 1.3rem;
+    color: #777e90;
+    text-align: center;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 39px;
+    // margin-bottom: 1rem;
+  }
+
+  p a {
+    color: purple;
+  }
+  .signin_page__social-links {
+    display: flex;
+    margin-top: 2rem;
+  }
+}
+// form {
+//   border: 1px solid;
+// }
